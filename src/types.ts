@@ -14,6 +14,7 @@ export type AppView =
   | 'result'
   | 'host'
   | 'books'
+  | 'lab'
   | 'profile';
 
 export type TimerMode = 'none' | 'total' | 'per_question';
@@ -116,6 +117,7 @@ export interface PlayerProgress {
   aiUsageCount: number;
   streakDays: number;
   lastPlayedDate: string | null;
+  lastDailyChallengeDate?: string | null;
   badges: string[];
   wrongQuestionsPool: QuestionItem[];
   results: QuizResultRecord[];
@@ -128,10 +130,20 @@ export interface AppSettings {
   soundEffects: boolean;
 }
 
+export interface BookChapter {
+  title: string;
+  summary: string;
+  content: string[];
+  keyRule: string;
+  example: string;
+}
+
 export interface BookItem {
   id: string;
   subject: string;
   title: string;
   author: string;
+  coverImage?: string;
   url: string;
+  chapters?: BookChapter[];
 }

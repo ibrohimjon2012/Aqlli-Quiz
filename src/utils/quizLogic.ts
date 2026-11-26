@@ -18,6 +18,7 @@ export interface SubjectMeta {
   levels: string[];
   speechLang: string;
   accentColor: string;
+  image: string;
 }
 
 export const SUBJECTS: SubjectMeta[] = [
@@ -28,6 +29,7 @@ export const SUBJECTS: SubjectMeta[] = [
     levels: ['8-sinf'],
     speechLang: 'uz-UZ',
     accentColor: 'sky',
+    image: '/src/assets/images/subj_informatics_1795709196869.jpg',
   },
   {
     id: 'english',
@@ -44,6 +46,7 @@ export const SUBJECTS: SubjectMeta[] = [
     ],
     speechLang: 'en-US',
     accentColor: 'indigo',
+    image: '/src/assets/images/subj_english_1795709197123.jpg',
   },
   {
     id: 'math',
@@ -52,6 +55,7 @@ export const SUBJECTS: SubjectMeta[] = [
     levels: ['Oson', "O'rtacha", 'Qiyin'],
     speechLang: 'uz-UZ',
     accentColor: 'amber',
+    image: '/src/assets/images/subj_math_1795709197955.jpg',
   },
   {
     id: 'uzbek',
@@ -60,6 +64,7 @@ export const SUBJECTS: SubjectMeta[] = [
     levels: ['Oson', "O'rtacha", 'Qiyin'],
     speechLang: 'uz-UZ',
     accentColor: 'emerald',
+    image: '/src/assets/images/subj_uzbek_1795709198361.jpg',
   },
   {
     id: 'russian',
@@ -68,6 +73,7 @@ export const SUBJECTS: SubjectMeta[] = [
     levels: ['Oson', "O'rtacha", 'Qiyin'],
     speechLang: 'ru-RU',
     accentColor: 'rose',
+    image: '/src/assets/images/subj_russian_1795709198252.jpg',
   },
 ];
 

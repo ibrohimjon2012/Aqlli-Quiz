@@ -111,7 +111,7 @@ export const QuizSetup: React.FC<QuizSetupProps> = ({
           <label className="block text-sm font-bold text-slate-800 dark:text-slate-100">
             1. Fanni tanlang
           </label>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {SUBJECTS.map((s) => {
               const active = s.id === subject;
               return (
@@ -119,19 +119,29 @@ export const QuizSetup: React.FC<QuizSetupProps> = ({
                   key={s.id}
                   type="button"
                   onClick={() => handleSubjectChange(s.id)}
-                  className={`text-left rounded-2xl p-4 border transition-all ${
+                  className={`text-left rounded-2xl overflow-hidden border transition-all flex flex-col ${
                     active
                       ? 'border-sky-600 bg-sky-50 dark:bg-sky-950/50 dark:border-sky-400 ring-2 ring-sky-500/20'
                       : 'border-slate-200 dark:border-slate-800 hover:border-slate-300 dark:hover:border-slate-700'
                   }`}
                 >
-                  <div className="flex items-center justify-between gap-2">
-                    <span className="font-bold text-slate-900 dark:text-white">{s.title}</span>
-                    {active && <CheckCircle2 className="w-5 h-5 text-sky-600 dark:text-sky-400 shrink-0" />}
+                  <div className="h-28 w-full overflow-hidden bg-slate-100 dark:bg-slate-800">
+                    <img
+                      src={s.image}
+                      alt={s.title}
+                      referrerPolicy="no-referrer"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
-                  <p className="text-xs text-slate-500 dark:text-slate-400 mt-1 line-clamp-2">
-                    {s.subtitle}
-                  </p>
+                  <div className="p-4">
+                    <div className="flex items-center justify-between gap-2">
+                      <span className="font-bold text-slate-900 dark:text-white">{s.title}</span>
+                      {active && <CheckCircle2 className="w-5 h-5 text-sky-600 dark:text-sky-400 shrink-0" />}
+                    </div>
+                    <p className="text-xs text-slate-500 dark:text-slate-400 mt-1 line-clamp-2">
+                      {s.subtitle}
+                    </p>
+                  </div>
                 </button>
               );
             })}

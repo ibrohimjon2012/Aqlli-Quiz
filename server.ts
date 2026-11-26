@@ -3,6 +3,7 @@ import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import askHandler from './api/ask.js';
+import ttsHandler from './api/tts.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -15,6 +16,10 @@ async function startServer() {
 
   app.post('/api/ask', async (req, res) => {
     await askHandler(req, res);
+  });
+
+  app.post('/api/tts', async (req, res) => {
+    await ttsHandler(req, res);
   });
 
   if (process.env.NODE_ENV !== 'production') {

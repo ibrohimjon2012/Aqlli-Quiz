@@ -21,6 +21,7 @@ import { PWAInstallButton } from './components/PWAInstallButton';
 import { QuizArena } from './components/QuizArena';
 import { QuizSetup } from './components/QuizSetup';
 import { ResultView } from './components/ResultView';
+import { SmartLab } from './components/SmartLab';
 import { useOnlineStatus } from './hooks/usePWAInstall';
 import {
   ActiveQuizSession,
@@ -395,6 +396,15 @@ export default function App() {
               </button>
               <button
                 type="button"
+                onClick={() => setView('lab')}
+                className={`hover:text-sky-600 dark:hover:text-sky-400 transition-colors whitespace-nowrap shrink-0 ${
+                  view === 'lab' ? 'text-sky-600 dark:text-sky-400' : ''
+                }`}
+              >
+                Laboratoriya
+              </button>
+              <button
+                type="button"
                 onClick={() => setView('profile')}
                 className={`hover:text-sky-600 dark:hover:text-sky-400 transition-colors whitespace-nowrap shrink-0 ${
                   view === 'profile' ? 'text-sky-600 dark:text-sky-400' : ''
@@ -431,6 +441,7 @@ export default function App() {
               { label: 'Viktorina', target: 'setup' as AppView },
               { label: 'Boshlovchi', target: 'host' as AppView },
               { label: 'Kitoblar', target: 'books' as AppView },
+              { label: 'Laboratoriya', target: 'lab' as AppView },
               { label: 'Profil', target: 'profile' as AppView },
             ].map((item) => (
               <button
@@ -641,6 +652,22 @@ export default function App() {
         ) : view === 'books' ? (
           <BooksSection
             initialGrade={profile.grade}
+            onBack={() => setView('home')}
+          />
+        ) : view === 'lab' ? (
+          <SmartLab
+            progress={progress}
+            settings={settings}
+            onAwardDailyBonus={(coins) => {
+              const today = new Date().toISOString().slice(0, 10);
+              persistProgress({
+                ...progress,
+                coins: progress.coins + coins,
+                lastDailyChallengeDate: today,
+              });
+              setRecentCoinGain(coins);
+              window.setTimeout(() => setRecentCoinGain(null), 3500);
+            }}
             onBack={() => setView('home')}
           />
         ) : view === 'profile' ? (

@@ -154,59 +154,102 @@ export const HomeDashboard: React.FC<HomeDashboardProps> = ({
         </button>
       </section>
 
-      {/* Qo'shimcha bo'limlar */}
-      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      {/* Qo'shimcha bo'limlar (rasmli kartochkalar) */}
+      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+        <button
+          type="button"
+          onClick={() => onNavigate('lab')}
+          className="text-left rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 overflow-hidden hover:border-teal-400 dark:hover:border-teal-500 transition-colors flex flex-col"
+        >
+          <div className="h-24 w-full overflow-hidden bg-teal-50 dark:bg-slate-800">
+            <img
+              src="/src/assets/images/smart_lab_hero_1795709199157.jpg"
+              alt="Aqlli Laboratoriya"
+              referrerPolicy="no-referrer"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="p-4">
+            <h3 className="font-bold text-slate-900 dark:text-white text-sm">Aqlli Laboratoriya</h3>
+            <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
+              Scratch bloklari, kartochkalar va +10 tanga bonusi
+            </p>
+          </div>
+        </button>
+
         <button
           type="button"
           onClick={() => onNavigate('books')}
-          className="text-left rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-5 hover:border-sky-400 dark:hover:border-sky-600 transition-colors"
+          className="text-left rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 overflow-hidden hover:border-sky-400 dark:hover:border-sky-600 transition-colors flex flex-col"
         >
-          <BookOpen className="w-6 h-6 text-sky-600 dark:text-sky-400 mb-3" />
-          <h3 className="font-bold text-slate-900 dark:text-white">Elektron kitoblar</h3>
-          <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
-            1–11-sinf darsliklari va PDF ko‘ruvchi
-          </p>
+          <div className="h-24 w-full overflow-hidden bg-sky-50 dark:bg-slate-800">
+            <img
+              src="/src/assets/images/books_library_1795709198453.jpg"
+              alt="Elektron kitoblar"
+              referrerPolicy="no-referrer"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="p-4">
+            <h3 className="font-bold text-slate-900 dark:text-white text-sm">Elektron kitoblar</h3>
+            <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
+              1–11-sinf darsliklari (ichki o‘quvchi)
+            </p>
+          </div>
         </button>
 
         <button
           type="button"
           onClick={onStartMistakesMode}
           disabled={progress.wrongQuestionsPool.length === 0}
-          className="text-left rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-5 hover:border-amber-400 dark:hover:border-amber-600 disabled:opacity-55 disabled:cursor-not-allowed transition-colors"
+          className="text-left rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-5 hover:border-amber-400 dark:hover:border-amber-600 disabled:opacity-55 disabled:cursor-not-allowed transition-colors flex flex-col justify-between"
         >
           <RefreshCw className="w-6 h-6 text-amber-600 dark:text-amber-400 mb-3" />
-          <h3 className="font-bold text-slate-900 dark:text-white">
-            Xatolar ustida ishlash ({progress.wrongQuestionsPool.length})
-          </h3>
-          <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
-            Xato savollarni qayta yeching (urinish sanalmaydi)
-          </p>
+          <div>
+            <h3 className="font-bold text-slate-900 dark:text-white text-sm">
+              Xatolar ustida ishlash ({progress.wrongQuestionsPool.length})
+            </h3>
+            <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
+              Xato savollarni qayta yeching (urinish sanalmaydi)
+            </p>
+          </div>
         </button>
 
         <button
           type="button"
           onClick={() => onNavigate('profile')}
-          className="text-left rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-5 hover:border-emerald-400 dark:hover:border-emerald-600 transition-colors"
+          className="text-left rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-5 hover:border-emerald-400 dark:hover:border-emerald-600 transition-colors flex flex-col justify-between"
         >
           <Trophy className="w-6 h-6 text-emerald-600 dark:text-emerald-400 mb-3" />
-          <h3 className="font-bold text-slate-900 dark:text-white">
-            Profil va Yutuqlar ({progress.badges.length})
-          </h3>
-          <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
-            Yutuq nishonlari va oxirgi sertifikatlar
-          </p>
+          <div>
+            <h3 className="font-bold text-slate-900 dark:text-white text-sm">
+              Profil va Yutuqlar ({progress.badges.length})
+            </h3>
+            <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
+              Yutuq nishonlari va sertifikatlar tarixi
+            </p>
+          </div>
         </button>
 
         <button
           type="button"
           onClick={onOpenGuide}
-          className="text-left rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-5 hover:border-indigo-400 dark:hover:border-indigo-600 transition-colors"
+          className="text-left rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 overflow-hidden hover:border-indigo-400 dark:hover:border-indigo-600 transition-colors flex flex-col"
         >
-          <HelpCircle className="w-6 h-6 text-indigo-600 dark:text-indigo-400 mb-3" />
-          <h3 className="font-bold text-slate-900 dark:text-white">Qo‘llanmani qayta ko‘rish</h3>
-          <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
-            Ilovadan foydalanish bo‘yicha 6 qadamli yo‘riqnoma
-          </p>
+          <div className="h-24 w-full overflow-hidden bg-indigo-50 dark:bg-slate-800">
+            <img
+              src="/src/assets/images/guide_learning_1795705493456.jpg"
+              alt="Qo‘llanma"
+              referrerPolicy="no-referrer"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="p-4">
+            <h3 className="font-bold text-slate-900 dark:text-white text-sm">Qo‘llanmani ko‘rish</h3>
+            <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
+              Ilova va yangi bo‘limlar bo‘yicha yo‘riqnoma
+            </p>
+          </div>
         </button>
       </section>
 

@@ -33,9 +33,9 @@ const STEPS = [
     accent: 'text-teal-600 dark:text-teal-400 bg-teal-50 dark:bg-teal-950/60',
   },
   {
-    title: '3. Savolga javob va ovozli o‘qish',
+    title: '3. Savolga javob va jonli o‘zbekcha erkak ovozi',
     description:
-      'Har bir savolda javob variantini belgilab "Tasdiqlash" tugmasini bosing. Savollar avtomatik o‘qib beriladi, darhol to‘g‘ri javob va sodda tushuntirish chiqadi.',
+      'Har bir savolda variantni belgilab "Tasdiqlash"ni bosing. Savollar jonli, tushunarli erkak ovozida avtomatik o‘qib beriladi va darhol sodda tushuntirish chiqadi.',
     icon: Volume2,
     accent: 'text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/60',
   },
@@ -54,11 +54,18 @@ const STEPS = [
     accent: 'text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/60',
   },
   {
-    title: '6. Sertifikat, Kitoblar va Xatolar ustida ishlash',
+    title: '6. Elektron kitoblar va Sertifikat',
     description:
-      'Har bir o‘yinchi ballidan qat’i nazar PNG sertifikat yuklab oladi. Shuningdek, 1–11-sinf elektron darsliklari va urinish sarflamaydigan "Xatolar ustida ishlash" rejimi mavjud.',
+      'Kitoblar bo‘limida istalgan darslik ustiga bossangiz darhol ichki o‘quvchida boblar, misollar va ovozli o‘qish bilan ochiladi. Har bir o‘yinchi PNG sertifikat yuklab oladi.',
     icon: Award,
     accent: 'text-rose-600 dark:text-rose-400 bg-rose-50 dark:bg-rose-950/60',
+  },
+  {
+    title: '7. Yangi menyu: Aqlli Laboratoriya',
+    description:
+      'Yangi «Laboratoriya» bo‘limida Scratch bloklarini yig‘ib mushukchani harakatlantiring, rasmli kartochkalar bilan qoidalarni yodlang va har kuni +10 bonus tanga yuting (urinish sarflanmaydi).',
+    icon: BookOpen,
+    accent: 'text-teal-600 dark:text-teal-400 bg-teal-50 dark:bg-teal-950/60',
   },
 ];
 
