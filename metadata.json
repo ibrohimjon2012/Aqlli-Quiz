@@ -1,0 +1,6 @@
+{
+  "name": "Smart Quiz",
+  "description": "O'zbek tilida aqlli ta'limiy viktorina, AI yordamchi, sertifikat va elektron darsliklar PWA ilovasi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

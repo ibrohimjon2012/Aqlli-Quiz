@@ -1,0 +1,602 @@
+[
+  {
+    "id": "inf-1",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Scratch",
+    "question": "🐱 Scratch dasturida ekranda harakatlanadigan qahramon (obyekt) nima deb ataladi?",
+    "options": ["Sprite (Sprayt)", "Piksellar", "Brauzer", "Server"],
+    "correctAnswer": "Sprite (Sprayt)",
+    "explanation": "Scratch o'yinlarida mushukcha yoki boshqa barcha harakatlanuvchi qahramonlar Sprite deb ataladi."
+  },
+  {
+    "id": "inf-2",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Scratch",
+    "question": "🟢 Scratch'da dasturni ishga tushirish uchun qaysi tugma bosiladi?",
+    "options": ["Yashil bayroqcha", "Qizil doira", "Ko'k uchburchak", "Sariq yulduzcha"],
+    "correctAnswer": "Yashil bayroqcha",
+    "explanation": "Yashil bayroqcha bosilganda dasturdagi barcha 'bayroqcha bosilganda' bloklari ishlay boshlaydi."
+  },
+  {
+    "id": "inf-3",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Scratch",
+    "question": "🛑 Scratch'da ishlayotgan dasturni darhol to'xtatish tugmasi qanday rangda?",
+    "options": ["Qizil", "Yashil", "Sariq", "Binafsha"],
+    "correctAnswer": "Qizil",
+    "explanation": "Yashil bayroqcha yonidagi qizil sakkizburchak tugma dasturni to'xtatish uchun xizmat qiladi."
+  },
+  {
+    "id": "inf-4",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Scratch",
+    "question": "🚶 Scratch'da qahramonni oldinga siljitish uchun qaysi bo'lim bloklaridan foydalaniladi?",
+    "options": ["Harakat (Motion)", "Tovush (Sound)", "Ko'rinish (Looks)", "O'zgaruvchilar (Variables)"],
+    "correctAnswer": "Harakat (Motion)",
+    "explanation": "Ko'k rangli Harakat (Motion) bo'limida '10 qadam yurish' va burilish bloklari joylashgan."
+  },
+  {
+    "id": "inf-5",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Scratch",
+    "question": "🔁 Scratch'da biror harakatni ko'p marta qaytarish uchun qaysi blok ishlatiladi?",
+    "options": ["Takrorlash (Repeat / Forever)", "Kutish (Wait)", "Salom aytish (Say)", "Tovush chiqarish"],
+    "correctAnswer": "Takrorlash (Repeat / Forever)",
+    "explanation": "Takrorlash (sikllar) bloklari bir xil kodni qayta-qayta yozmasdan ko'p marta bajarish imkonini beradi."
+  },
+  {
+    "id": "inf-6",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Scratch",
+    "question": "🔊 Scratch'da qahramonga ovoz yoki musiqa qo'shish uchun qaysi bo'lim ishlatiladi?",
+    "options": ["Tovush (Sound)", "Harakat (Motion)", "Hodisalar (Events)", "Sezgi (Sensing)"],
+    "correctAnswer": "Tovush (Sound)",
+    "explanation": "Pushti rangli Tovush (Sound) bo'limi yordamida qahramonga turli ovoz effektlari qo'yiladi."
+  },
+  {
+    "id": "inf-7",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Scratch",
+    "question": "🎭 Scratch'da qahramonlar harakatlanadigan orqa maydon (fon) nima deyiladi?",
+    "options": ["Sahna (Stage / Backdrop)", "Klaviatura", "Protsessor", "Jadval"],
+    "correctAnswer": "Sahna (Stage / Backdrop)",
+    "explanation": "Spraytlar ijro etadigan maydon Sahna (Stage), uning rasmi esa Fon (Backdrop) deyiladi."
+  },
+  {
+    "id": "inf-8",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Scratch",
+    "question": "💬 Qahramon ekranda 'Salom!' deb gapirishi uchun qaysi blok bo'limiga kiramiz?",
+    "options": ["Ko'rinish (Looks)", "Tovush (Sound)", "Amallar (Operators)", "Harakat (Motion)"],
+    "correctAnswer": "Ko'rinish (Looks)",
+    "explanation": "Binafsha rangli Ko'rinish (Looks) bo'limida 'Salom! deb aytish' va libos almashtirish bloklari bor."
+  },
+  {
+    "id": "inf-9",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Scratch",
+    "question": "👗 Scratch'da bitta spraytning turli ko'rinishlari (rasmlari) nima deyiladi?",
+    "options": ["Liboslar (Costumes)", "Fayllar", "Papkalar", "Shriftlar"],
+    "correctAnswer": "Liboslar (Costumes)",
+    "explanation": "Liboslarni tez-tez almashtirish orqali qahramonning yurish yoki yugurish animatsiyasi yaratiladi."
+  },
+  {
+    "id": "inf-10",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Scratch",
+    "question": "⏱️ Dasturda ikki harakat orasida 1 soniya pauza qilish uchun qaysi blok tanlanadi?",
+    "options": ["1 soniya kutish (Wait 1 seconds)", "10 qadam yurish", "Yashirinish (Hide)", "Ovozni o'chirish"],
+    "correctAnswer": "1 soniya kutish (Wait 1 seconds)",
+    "explanation": "Boshqarish (Control) bo'limidagi 'kutish' bloki keyingi buyruqdan oldin biroz to'xtab turadi."
+  },
+  {
+    "id": "inf-11",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Scratch",
+    "question": "🧩 Scratch dasturida kodlar qanday ko'rinishda yoziladi?",
+    "options": ["Rangli bloklarni bir-biriga ulab", "Faqat inglizcha matn terib", "Faqat raqamlar yozib", "Chizg'ich bilan chizib"],
+    "correctAnswer": "Rangli bloklarni bir-biriga ulab",
+    "explanation": "Scratch vizual dasturlash tili bo'lib, unda buyruqlar lego kabi rangli bloklarni birlashtirish orqali tuziladi."
+  },
+  {
+    "id": "inf-12",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Scratch",
+    "question": "📍 Scratch sahnasining eng markaziy nuqtasi koordinatalari nechaga teng?",
+    "options": ["x = 0, y = 0", "x = 100, y = 100", "x = 10, y = 20", "x = 500, y = 500"],
+    "correctAnswer": "x = 0, y = 0",
+    "explanation": "Sahna markazida x ham, y ham 0 ga teng bo'ladi. O'ngga x ortadi, chapga kamayadi."
+  },
+  {
+    "id": "inf-13",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Scratch",
+    "question": "🧱 Scratch'da qahramon sahna chetiga urilganda orqaga qaytishi uchun qaysi blok ishlatiladi?",
+    "options": ["Chetga tekkanda qaytish (If on edge, bounce)", "10 qadam yurish", "O'lchamni kattalashtirish", "Hammasini o'chirish"],
+    "correctAnswer": "Chetga tekkanda qaytish (If on edge, bounce)",
+    "explanation": "Bu blok sprayt ekran chegarasiga yetib borganda uni teskari tomonga burib yuboradi."
+  },
+  {
+    "id": "inf-14",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Scratch",
+    "question": "👁️ Scratch'da qahramonni ekranda vaqtincha ko'rinmas qilish uchun qaysi blok qo'llaniladi?",
+    "options": ["Yashirinish (Hide)", "Ko'rinish (Show)", "Burilish (Turn)", "Sakratish"],
+    "correctAnswer": "Yashirinish (Hide)",
+    "explanation": "'Yashirinish (Hide)' spraytni sahnadan yashiradi, 'Ko'rinish (Show)' esa uni yana qaytaradi."
+  },
+  {
+    "id": "inf-15",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Scratch",
+    "question": "⌨️ Klaviatura tugmasi bosilganda qahramon sakrashi uchun qaysi bo'limdagi blok kerak?",
+    "options": ["Hodisalar (Events)", "Tovush (Sound)", "Amallar (Operators)", "Mening bloklarim"],
+    "correctAnswer": "Hodisalar (Events)",
+    "explanation": "Hodisalar (Events) bo'limidagi 'bo'sh joy tugmasi bosilganda' bloki tugmaga reaksiya beradi."
+  },
+  {
+    "id": "inf-16",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Scratch",
+    "question": "🎮 Scratch dasturi asosan nima yaratish uchun juda qulay?",
+    "options": ["O'yinlar, multfilmlar va animatsiyalar", "Matnli shartnomalar", "Faqat jadvallar", "Antivirus dasturlari"],
+    "correctAnswer": "O'yinlar, multfilmlar va animatsiyalar",
+    "explanation": "Scratch yosh dasturchilar uchun qiziqarli o'yinlar, hikoyalar va multfilmlar yaratishga mo'ljallangan."
+  },
+  {
+    "id": "inf-17",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Kompyuter qurilmalari",
+    "question": "🧠 Kompyuterning 'miyasi' deb ataladigan asosiy qurilma qaysi?",
+    "options": ["Protsessor (CPU)", "Monitor", "Sichqoncha", "Printer"],
+    "correctAnswer": "Protsessor (CPU)",
+    "explanation": "Protsessor kompyuterdagi barcha hisob-kitoblarni va buyruqlarni bajaradigan eng muhim qismdir."
+  },
+  {
+    "id": "inf-18",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Kompyuter qurilmalari",
+    "question": "🖥️ Ma'lumotlarni ekranda tasvirlab ko'rsatib beradigan qurilma nima?",
+    "options": ["Monitor", "Klaviatura", "Skaner", "Mikrofon"],
+    "correctAnswer": "Monitor",
+    "explanation": "Monitor matn, rasm va videolarni ko'zimizga ko'rinadigan tasvir sifatida chiqarib beradi."
+  },
+  {
+    "id": "inf-19",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Kompyuter qurilmalari",
+    "question": "🖨️ Kompyuterdagi matn va rasmlarni qog'ozga chiqarib beradigan qurilma qaysi?",
+    "options": ["Printer", "Skaner", "Kalonka", "Veb-kamera"],
+    "correctAnswer": "Printer",
+    "explanation": "Printer elektron hujjatlar va suratlarni qog'ozga bosib chiqaradi."
+  },
+  {
+    "id": "inf-20",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Kompyuter qurilmalari",
+    "question": "📄 Qog'ozdagi rasm yoki hujjatni kompyuter xotirasiga rasm qilib kiritadigan qurilma qaysi?",
+    "options": ["Skaner", "Printer", "Monitor", "Klaviatura"],
+    "correctAnswer": "Skaner",
+    "explanation": "Skaner qog'ozdagi tasvirni o'qib, uni raqamli ko'rinishda kompyuterga kiritadi."
+  },
+  {
+    "id": "inf-21",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Kompyuter qurilmalari",
+    "question": "🖱️ Ekrandagi kursorni boshqarish va dasturlarni tanlash uchun qaysi qurilma ishlatiladi?",
+    "options": ["Sichqoncha (Mouse)", "Mikrofon", "Printer", "Modem"],
+    "correctAnswer": "Sichqoncha (Mouse)",
+    "explanation": "Sichqoncha ko'rsatkichni (kursorni) siljitish va tugmalarni bosish uchun ishlatiladi."
+  },
+  {
+    "id": "inf-22",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Kompyuter qurilmalari",
+    "question": "🎙️ Ovozimizni kompyuterga yozib olish uchun qaysi qurilma kerak?",
+    "options": ["Mikrofon", "Kalonka", "Monitor", "Printer"],
+    "correctAnswer": "Mikrofon",
+    "explanation": "Mikrofon tovushni qabul qilib, kompyuterga kiritish qurilmasidir. Kalonka esa ovozni chiqaradi."
+  },
+  {
+    "id": "inf-23",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Kompyuter qurilmalari",
+    "question": "⚡ Kompyuter o'chirilganda ichidagi ma'lumotlar o'chib ketadigan tezkor xotira qaysi?",
+    "options": ["Tezkor xotira (RAM)", "Qattiq disk (HDD/SSD)", "Fleshka", "CD disk"],
+    "correctAnswer": "Tezkor xotira (RAM)",
+    "explanation": "RAM (tezkor xotira) faqat kompyuter yoniq paytida ishlayotgan dasturlarni vaqtincha saqlaydi."
+  },
+  {
+    "id": "inf-24",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Kompyuter qurilmalari",
+    "question": "💾 Rasm, video va o'yinlarni uzoq muddat saqlaydigan doimiy xotira qaysi?",
+    "options": ["Qattiq disk (HDD yoki SSD)", "Protsessor", "Sichqoncha", "Klaviatura"],
+    "correctAnswer": "Qattiq disk (HDD yoki SSD)",
+    "explanation": "HDD va SSD doimiy xotira bo'lib, kompyuter o'chganida ham barcha fayllarni saqlab qoladi."
+  },
+  {
+    "id": "inf-25",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Kompyuter qurilmalari",
+    "question": "🔊 Musiqa va videolarning ovozini eshitish uchun qaysi qurilma ishlatiladi?",
+    "options": ["Kalonka (Dinamik) yoki naushnik", "Skaner", "Klaviatura", "Protsessor"],
+    "correctAnswer": "Kalonka (Dinamik) yoki naushnik",
+    "explanation": "Kalonka va quloqchinlar tovushli axborotni chiqarish qurilmalari hisoblanadi."
+  },
+  {
+    "id": "inf-26",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Kompyuter qurilmalari",
+    "question": "📷 Onlayn darslarda yuzimizni ko'rsatib gaplashish uchun qaysi qurilma kerak?",
+    "options": ["Veb-kamera", "Printer", "Fleshka", "Joystik"],
+    "correctAnswer": "Veb-kamera",
+    "explanation": "Veb-kamera video tasvirni suratga olib, kompyuter orqali internetga uzatadi."
+  },
+  {
+    "id": "inf-27",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Kompyuter qurilmalari",
+    "question": "🔌 Kompyuterga tashqi qurilmalarni (fleshka, sichqoncha, telefon) ulash porti ko'pincha qanday nomlanadi?",
+    "options": ["USB port", "PDF port", "MP3 port", "HTML port"],
+    "correctAnswer": "USB port",
+    "explanation": "USB — zamonaviy kompyuterlarda fleshka va tashqi qurilmalarni ulash uchun eng keng tarqalgan port."
+  },
+  {
+    "id": "inf-28",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Kompyuter qurilmalari",
+    "question": "🔋 Elektr toki to'satdan o'chib qolganda kompyuterni bir necha daqiqa ishlatib turadigan qurilma nima?",
+    "options": ["UPS (uzluksiz quvvat manbai)", "Modem", "Skaner", "Router"],
+    "correctAnswer": "UPS (uzluksiz quvvat manbai)",
+    "explanation": "UPS batareyasi elektr o'chganda fayllarni saqlab, kompyuterni to'g'ri o'chirishga vaqt beradi."
+  },
+  {
+    "id": "inf-29",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Axborot va fayllar",
+    "question": "1️⃣ Axborotning eng kichik o'lchov birligi nima?",
+    "options": ["Bit", "Bayt", "Kilobayt", "Megabayt"],
+    "correctAnswer": "Bit",
+    "explanation": "Bit eng kichik birlik bo'lib, u faqat 0 yoki 1 qiymatini oladi."
+  },
+  {
+    "id": "inf-30",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Axborot va fayllar",
+    "question": "📦 1 bayt necha bitga teng?",
+    "options": ["8 bit", "4 bit", "10 bit", "16 bit"],
+    "correctAnswer": "8 bit",
+    "explanation": "Standart bo'yicha 1 bayt 8 ta bitdan tashkil topadi (masalan, bitta harf 1 bayt joy oladi)."
+  },
+  {
+    "id": "inf-31",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Axborot va fayllar",
+    "question": "📁 Kompyuterda fayllarni tartib bilan saqlash uchun ishlatiladigan 'quti' nima deb ataladi?",
+    "options": ["Papka (Katalog / Folder)", "Brauzer", "Piksellar", "Antivirus"],
+    "correctAnswer": "Papka (Katalog / Folder)",
+    "explanation": "Papka ichida boshqa fayllar va kichik papkalarni tartibli saqlash mumkin."
+  },
+  {
+    "id": "inf-32",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Axborot va fayllar",
+    "question": "🗑️ Windows'da o'chirilgan fayllar vaqtincha qayerga tushadi?",
+    "options": ["Savat (Korzina / Recycle Bin)", "Mening hujjatlarim", "Boshqaruv paneli", "Brauzer"],
+    "correctAnswer": "Savat (Korzina / Recycle Bin)",
+    "explanation": "Oddiy o'chirilgan fayllar Savatga tushadi va kerak bo'lsa ularni u yerdan tiklash mumkin."
+  },
+  {
+    "id": "inf-33",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Axborot va fayllar",
+    "question": "🖼️ Qaysi kengaytma rasm fayliga tegishli?",
+    "options": [".jpg (yoki .png)", ".mp3", ".txt", ".exe"],
+    "correctAnswer": ".jpg (yoki .png)",
+    "explanation": ".jpg va .png rasm fayllari uchun, .mp3 esa musiqa fayllari uchun ishlatiladi."
+  },
+  {
+    "id": "inf-34",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Axborot va fayllar",
+    "question": "🎵 Qaysi fayl kengaytmasi musiqa yoki audio faylni bildiradi?",
+    "options": [".mp3", ".docx", ".jpg", ".xlsx"],
+    "correctAnswer": ".mp3",
+    "explanation": ".mp3 — eng mashhur tovush (audio) fayl formatidir."
+  },
+  {
+    "id": "inf-35",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Axborot va fayllar",
+    "question": "📊 1 Kilobayt (KB) necha baytga teng?",
+    "options": ["1024 bayt", "100 bayt", "500 bayt", "10 bayt"],
+    "correctAnswer": "1024 bayt",
+    "explanation": "Informatikada 1 KB = 1024 bayt, 1 MB = 1024 KB ga teng bo'ladi."
+  },
+  {
+    "id": "inf-36",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Axborot va fayllar",
+    "question": "🔢 Kompyuter barcha ma'lumotlarni qanday sanoq sistemasida saqlaydi?",
+    "options": ["Ikkilik (0 va 1)", "O'nlik", "Rim raqamlari", "Oltmishlik"],
+    "correctAnswer": "Ikkilik (0 va 1)",
+    "explanation": "Kompyuter elektr signallari bilan ishlagani uchun hamma narsani 0 va 1 (ikkilik kod) orqali tushunadi."
+  },
+  {
+    "id": "inf-37",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Axborot va fayllar",
+    "question": "🎬 Video fayllar ko'pincha qaysi kengaytmaga ega bo'ladi?",
+    "options": [".mp4", ".txt", ".png", ".wav"],
+    "correctAnswer": ".mp4",
+    "explanation": ".mp4 va .avi kengaytmalari video fayllarni saqlash uchun ishlatiladi."
+  },
+  {
+    "id": "inf-38",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Axborot va fayllar",
+    "question": "📐 Tasvirning ekrandagi eng kichik nuqtasi nima deyiladi?",
+    "options": ["Piksel", "Bit", "Fayl", "Kursor"],
+    "correctAnswer": "Piksel",
+    "explanation": "Monitor ekranidagi rasm millionlab mayda rangli nuqtalar — piksellardan tashkil topadi."
+  },
+  {
+    "id": "inf-39",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Axborot va fayllar",
+    "question": "📚 Dasturlar va fayllarni bir joyga zichlab (kichraytirib) saqlash nima deyiladi?",
+    "options": ["Arxivlash", "Chop etish", "Formatlash", "Skanerlash"],
+    "correctAnswer": "Arxivlash",
+    "explanation": "WinRAR yoki ZIP orqali fayllarni arxivlab, hajmini kichraytirish va bir nechta faylni bitta qilish mumkin."
+  },
+  {
+    "id": "inf-40",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Klaviatura, Word va Paint",
+    "question": "⌨️ Klaviaturada barcha harflarni KATTA (BOSMA) qilib yozish rejimini qaysi tugma yoqadi?",
+    "options": ["Caps Lock", "Space", "Backspace", "Tab"],
+    "correctAnswer": "Caps Lock",
+    "explanation": "Caps Lock yoqilganda harflar doimiy ravishda katta bo'lib yoziladi."
+  },
+  {
+    "id": "inf-41",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Klaviatura, Word va Paint",
+    "question": "↩️ Matn yozayotganda yangi qatorga (abzatsga) o'tish tugmasi qaysi?",
+    "options": ["Enter", "Shift", "Esc", "Ctrl"],
+    "correctAnswer": "Enter",
+    "explanation": "Enter tugmasi matnda yangi qatorga tushish va buyruqlarni tasdiqlash uchun bosiladi."
+  },
+  {
+    "id": "inf-42",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Klaviatura, Word va Paint",
+    "question": "⌫ Kursordan chap tomondagi bitta belgini o'chirish uchun qaysi tugma bosiladi?",
+    "options": ["Backspace", "Enter", "Space", "Home"],
+    "correctAnswer": "Backspace",
+    "explanation": "Backspace chapdagi belgini, Delete esa kursorning o'ng tomonidagi belgini o'chiradi."
+  },
+  {
+    "id": "inf-43",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Klaviatura, Word va Paint",
+    "question": "📋 Nusxa olish (Copy) uchun qaysi klaviatura kombinatsiyasi ishlatiladi?",
+    "options": ["Ctrl + C", "Ctrl + V", "Ctrl + Z", "Ctrl + S"],
+    "correctAnswer": "Ctrl + C",
+    "explanation": "Ctrl + C belgilangan matn yoki fayldan nusxa oladi, Ctrl + V esa uni kerakli joyga qo'yadi."
+  },
+  {
+    "id": "inf-44",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Klaviatura, Word va Paint",
+    "question": "⏪ Oxirgi qilingan xato harakatni orqaga qaytarish (bekor qilish) tugmalari qaysi?",
+    "options": ["Ctrl + Z", "Ctrl + P", "Ctrl + A", "Ctrl + X"],
+    "correctAnswer": "Ctrl + Z",
+    "explanation": "Ctrl + Z oxirgi amalni bekor qilib, oldingi holatga qaytaradi."
+  },
+  {
+    "id": "inf-45",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Klaviatura, Word va Paint",
+    "question": "📝 Matnli hujjatlar (referat, insho) yozish uchun qaysi dastur ishlatiladi?",
+    "options": ["Microsoft Word", "Paint", "Kalkulyator", "Media Player"],
+    "correctAnswer": "Microsoft Word",
+    "explanation": "Microsoft Word — matnlarni yozish, bezash va hujjat tayyorlash uchun mo'ljallangan dastur."
+  },
+  {
+    "id": "inf-46",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Klaviatura, Word va Paint",
+    "question": "🎨 Windows tarkibidagi oddiy rasm chizish dasturi qaysi?",
+    "options": ["Paint", "Excel", "PowerPoint", "Access"],
+    "correctAnswer": "Paint",
+    "explanation": "Paint dasturida qalam, mo'yqalam, shakl va ranglar yordamida rasm chizish va tahrirlash mumkin."
+  },
+  {
+    "id": "inf-47",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Klaviatura, Word va Paint",
+    "question": "🪣 Paint dasturida yopiq shakl ichini bir marta bosish bilan rangga bo'yash asbobi qaysi?",
+    "options": ["Rang quyish (Chelakcha / Fill)", "O'chirg'ich", "Lupa", "Matn"],
+    "correctAnswer": "Rang quyish (Chelakcha / Fill)",
+    "explanation": "Chelakcha (Fill with color) shakli bilan yopiq sohaning ichini bir zumda to'liq bo'yash mumkin."
+  },
+  {
+    "id": "inf-48",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Klaviatura, Word va Paint",
+    "question": "🅱️ Microsoft Word'da matnni QALIN (Bold) qilib ko'rsatish tugmasi qaysi harf bilan belgilanadi?",
+    "options": ["B (yoki Ж)", "I", "U", "A"],
+    "correctAnswer": "B (yoki Ж)",
+    "explanation": "B (Bold) — qalin, I (Italic) — og'ma, U (Underline) — tagiga chizilgan matn qiladi."
+  },
+  {
+    "id": "inf-49",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Klaviatura, Word va Paint",
+    "question": "⎵ Klaviaturadagi so'zlar orasiga bo'shliq qo'yadigan eng uzun tugma nima deyiladi?",
+    "options": ["Space (Probel)", "Enter", "Shift", "Tab"],
+    "correctAnswer": "Space (Probel)",
+    "explanation": "Eng pastki qatordagi uzun Space tugmasi so'zlar orasiga bo'sh joy tashlaydi."
+  },
+  {
+    "id": "inf-50",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Klaviatura, Word va Paint",
+    "question": "💾 Hujjatni saqlash uchun klaviaturada qaysi tezkor tugmalar bosiladi?",
+    "options": ["Ctrl + S", "Ctrl + F", "Ctrl + W", "Alt + F4"],
+    "correctAnswer": "Ctrl + S",
+    "explanation": "Ctrl + S (Save) ishlayotgan hujjatni tezda saqlab qo'yadi."
+  },
+  {
+    "id": "inf-51",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Internet xavfsizligi",
+    "question": "🔐 Qaysi parol eng xavfsiz va ishonchli hisoblanadi?",
+    "options": ["Katta-kichik harf, raqam va belgilar aralashmasi (masalan: Qw8!mP2#)", "12345678", "qwerty", "O'z tug'ilgan yilingiz"],
+    "correctAnswer": "Katta-kichik harf, raqam va belgilar aralashmasi (masalan: Qw8!mP2#)",
+    "explanation": "Murakkab parollarni begona dasturlar va xakerlar topishi juda qiyin."
+  },
+  {
+    "id": "inf-52",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Internet xavfsizligi",
+    "question": "🛡️ Kompyuterni zararli dasturlardan himoya qiladigan maxsus dastur nima?",
+    "options": ["Antivirus", "Brauzer", "Arxivator", "Matn muharriri"],
+    "correctAnswer": "Antivirus",
+    "explanation": "Antivirus dasturi kompyuterni tekshiradi va viruslarni aniqlab zararsizlantiradi."
+  },
+  {
+    "id": "inf-53",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Internet xavfsizligi",
+    "question": "🎣 Internetda firibgarlar soxta sayt orqali parol va karta raqamlarini o'g'irlashi nima deyiladi?",
+    "options": ["Fishing (Phishing)", "Dasturlash", "Formatlash", "Kopirayt"],
+    "correctAnswer": "Fishing (Phishing)",
+    "explanation": "Fishing — ishonchli saytga o'xshash soxta sahifa yasab, odamlarning maxfiy ma'lumotini olish usuli."
+  },
+  {
+    "id": "inf-54",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Internet xavfsizligi",
+    "question": "🌐 Internetdagi saytlarni ochib beradigan dastur (Chrome, Edge, Safari) nima deyiladi?",
+    "options": ["Brauzer", "Protsessor", "Antivirus", "Skaner"],
+    "correctAnswer": "Brauzer",
+    "explanation": "Brauzer veb-sahifalarni ko'rish va internetda ishlash uchun mo'ljallangan dasturdir."
+  },
+  {
+    "id": "inf-55",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Internet xavfsizligi",
+    "question": "🔒 Xavfsiz veb-sayt manzili qaysi belgi va yozuv bilan boshlanadi?",
+    "options": ["https:// va qulfcha belgisi", "http://", "ftp://", "www."],
+    "correctAnswer": "https:// va qulfcha belgisi",
+    "explanation": "HTTPS oxiridagi 'S' (Secure) sayt bilan almashinadigan ma'lumotlar shifrlangan va xavfsiz ekanini bildiradi."
+  },
+  {
+    "id": "inf-56",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Internet xavfsizligi",
+    "question": "📩 Notanish odamdan 'Siz 1 million yutdingiz, mana bu havolaga kiring' degan xabar kelsa nima qilish kerak?",
+    "options": ["Havolaga kirmaslik va xabarni o'chirish", "Darhol parolni yozish", "Do'stlarga ham tarqatish", "Bank karta raqamini yuborish"],
+    "correctAnswer": "Havolaga kirmaslik va xabarni o'chirish",
+    "explanation": "Shubhali havolalarda virus yoki firibgarlik bo'lishi mumkin, ularni ochmaslik eng to'g'ri yo'l."
+  },
+  {
+    "id": "inf-57",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Internet xavfsizligi",
+    "question": "📧 Ruxsatsiz keladigan ko'p sonli keraksiz reklama xabarlari nima deyiladi?",
+    "options": ["Spam", "Blog", "Chat", "Avatar"],
+    "correctAnswer": "Spam",
+    "explanation": "Elektron pochta yoki messenjerga keladigan noma'qul reklama xabarlari spam deb ataladi."
+  },
+  {
+    "id": "inf-58",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Internet xavfsizligi",
+    "question": "📱 Shaxsiy parolingizni kimga aytish mumkin?",
+    "options": ["Hech kimga aytmaslik kerak (faqat ota-ona zarur holatda)", "Sinfdoshlarga", "Internetdagi notanish do'stga", "Izohlarda hamma uchun yozish"],
+    "correctAnswer": "Hech kimga aytmaslik kerak (faqat ota-ona zarur holatda)",
+    "explanation": "Parol — shaxsiy kalit. Uni begonalarga berishakkaunt o'g'irlanishiga olib keladi."
+  },
+  {
+    "id": "inf-59",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Internet xavfsizligi",
+    "question": "🔑 Ikki bosqichli tekshiruv (2FA) nima uchun kerak?",
+    "options": ["Paroldan tashqari telefon raqamga keladigan kod bilan hisobni kuchli himoyalash uchun", "Internet tezligini oshirish uchun", "Ekran rangini o'zgartirish uchun", "O'yinlarni tezlashtirish uchun"],
+    "correctAnswer": "Paroldan tashqari telefon raqamga keladigan kod bilan hisobni kuchli himoyalash uchun",
+    "explanation": "2FA yoqilganda birov parolingizni bilib qolsa ham, telefoningizdagi kodsiz kira olmaydi."
+  },
+  {
+    "id": "inf-60",
+    "subject": "informatics",
+    "level": "8-sinf",
+    "topic": "Internet xavfsizligi",
+    "question": "💾 Kompyuterdagi muhim rasm va hujjatlarni yo'qotmaslik uchun vaqti-vaqti bilan boshqa joyga ko'chirib qo'yish nima deyiladi?",
+    "options": ["Zaxira nusxa olish (Backup)", "Virus yuqtirish", "Formatlash", "Bloklash"],
+    "correctAnswer": "Zaxira nusxa olish (Backup)",
+    "explanation": "Backup (zaxira nusxa) kompyuter buzilib qolgan taqdirda ham muhim fayllarni saqlab qoladi."
+  }
+]
